@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Heebo";
+    src: url("/fonts/Heebo-VariableFont_wght") format("truetype")
+  }
+  
+  @font-face {
+    font-family: "Bebas Neue";
+    src: url("/fonts/BebasNeue-Regular.ttf") format("truetype")
+  }
