@@ -2,6 +2,7 @@ import SvgCvIcon from "../../generatedIcons/CvIcon";
 import SvgGithubIcon from "../../generatedIcons/GithubIcon";
 import SvgLinkedInIcon from "../../generatedIcons/LinkedInIcon";
 import classes from "./Header.module.css";
+import Pdf from "../../CV-LiorKoren.pdf";
 
 const Header = () => {
     return (
@@ -13,13 +14,13 @@ const Header = () => {
                 <h2>Based in Kiryat Ono, Israel</h2>
             </div>
             <div className={classes.links}>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/liorkorenbio/" target="_blank" rel="noopener noreferrer">
                     <SvgLinkedInIcon />
                 </a>
-                <a href="/">
+                <a href="https://github.com/liorbio" target="_blank" rel="noopener noreferrer">
                     <SvgGithubIcon />
                 </a>
-                <a href="/">
+                <a href={Pdf} target="_blank" rel="noreferrer">
                     <SvgCvIcon />
                 </a>
             </div>

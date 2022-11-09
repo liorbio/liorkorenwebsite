@@ -8,7 +8,7 @@ const Bio = () => {
                 my service, I developed two web applications for the IDF that are at use, and spent my free time working on my own application for
                 fellow language learning enthusiasts. I previously studied biomedical engineering at Tel Aviv University.
             </p>
-            <a href="/">
+            <a href="mailto:lior7koren@gmail.com">
                 Contact me about <b>junior full stack developer roles</b> in the greater Tel Aviv area.
             </a>
         </div>
