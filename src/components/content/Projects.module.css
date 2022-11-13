@@ -33,3 +33,9 @@
     box-shadow: 0px 1px 4px 0px #00000025;
     filter: saturate(30%);
 }
+
+@media screen and (max-width: 700px) {
+    .project p {
+      font-size: 1rem;
+    }
+}
